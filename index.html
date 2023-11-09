@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pegar link de font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Comunicación/Diseño</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li> 
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">SERVICIOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <!--pegar link de font awesome para tener el logo de menú hamburguesa-->
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <!--CAMBIAR A MI IMAGEN-->
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>DANIEL SUBELZA</h1>
+            <h2>Estudiante de Comunicación Social - Comunicaicón Digital y Diseño UX/UI</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/dani.callejero.75?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/dani_subelza?t=P2hYuJrh5BCQZ5SEzcVCPA&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/callejerodani?igshid=c2szNHI2ZG9ka2Fw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-subelza-1573b612a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Daniel Enrique Subelza.</span> Soy un apasionado estudiante y profesional de la comunicación y las nuevas tecnólogas. Me especializo en el ámbito digital en comunicación, producción y diseño. Soy una persona muy activa y amante de la naturaleza, los viajes y las fotografías.
+                <br> Mi camino en la comunicación ha sido diverso y enriquecedor. Durante mi formación académica, participé en la producción de contenidos para radio y televisión. He adquirido habilidades técnicas en diseño web, diseño gráfico y diseño UX/UI y poseo una experiencia laboral en la producción de contenidos audiovisuales y proyectos para ONGs relacionados a la comunicación desde una perspectiva de derechos humanos.
+                </p>
+        
+            <div class="fila">
+                <!--DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            28-06-1988
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (0388) 155845541
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            danielsubelza1988@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.callejerodani.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            El Carmen.Jujuy-Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--SE PUEDE MODIFICAR INTERESES-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>CICLISMO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>TREKKING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>SWIMMING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="https://drive.google.com/file/d/1ecJVVOzwhnCSo-wPq9l8dQ1EYqggXbKX/view?usp=sharing" target="_blank">Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                
+            </button></a>
+        </div>
+    </section>
+
+
+    <!--SECCION HABILIDADES-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--CAMBIAR HABILIDADES TECNICAS-->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="habilidad">
+                        <span>Javascript</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>HTML & CSS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>FIGMA</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Photoshop</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>After Efects</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--HABILIDADES PROFESIONALES-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dedicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Direcion de Proyecto</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item iz">
+                        <h4>Comunicación</h4>
+                        <span class="casa">Universidad Nacional de Jujuy</span>
+                        <span class="fecha">2011-2023</span>
+                        <p>Actualmente me encuentro en la fase final de mi licenciatura en Comunicación Social y cursando el último año de la Tecnicatura en Comunicación Digital Convergente.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item iz">
+                        <h4>Diseño y Desarrollo Web</h4>
+                        <span class="casa">Capacitación / Cursos</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>Realice diferentes capacitaciones en lenguajes de programación, Desarrollo y Diseño Web con HTML, CSS y React Js/Argentina Programa 4.0-Universidad Tecnológica Nacional-WordPress/UTEDYC-Diseño UX/UI/CODO A CODO</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item iz">
+                        <h4>Derechos Humanos</h4>
+                        <span class="casa">Diplomaturas / Cursos</span>
+                        <span class="fecha">2019-2023</span>
+                        <p>Diploma Superior en Infancias y Derechos Humanos/CLACSO–Seminario Infancia Control Social y Derechos Humanos/UBA-Herramientas para proteger y acompañar a niños, niñas y adolescentes en el mundo Digital-Introducción a la perspectiva de género en los medios audiovisuales/Defensoría del Publico.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Capacitador Laboral</h4>
+                        <span class="casa">Ministerio de Educación</span>
+                        <span class="fecha">2014-2020</span>
+                        <p>Me desempeñe como Promotor Educativo Comunitario bajo la figura de Capacitador Laboral, dependiente del Ministerio de Educación de la Provincia de Jujuy.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asistente de Producion Audiovisual</h4>
+                        <span class="casa">Wayruro Comunicación Popular</span>
+                        <span class="fecha">2014</span>
+                        <p>Asistente de producción en el Magazín cultural y culinario, Waykuna Wasi (Sabores Andinos) del Colectivo Wayruro Comunicación Popular, proyecto dependiente del programa de fomento “Fabrica de Tv”, NODOS Audiovisuales Tecnológico (NAT) Jujuy</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asistente de Produción Audiovisual</h4>
+                        <span class="casa">Colectivo Al Norte</span>
+                        <span class="fecha">2010-2014</span>
+                        <p>Producción y asistencia técnica en sonido y cámara en Productora Colectivo Al Norte, integrante del Nodo Jujuy, Polo NOA de la TV digital. <br> Entre las produciones se encuentran un cortometraje documental "Un Fallo Ejemplar. El juicio oral por el femicidio de Georgina Vera" y una coprodución, el Teaser documental "Ni una más Ni una menos"</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>SERVICIOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Recorrido Fotografico</h3>
+                        <p>Salidas <br> con Visitas Guiadas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Taller de Produción Audiovisual</h3>
+                        <p>De la idea al Guion</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Taller Basico</h3>
+                        <p>Edicion de Video</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Taller: FIGMA</h3>
+                        <p>Herramientas Basicas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Taller: Diseño Web</h3>
+                        <p>Mi propio sitio</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>App Mobile</h3>
+                        <p>Diseño y Diagramación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+            
+                <div class="col">
+                    <!--<form action="https://formsubmit.co/danielsubelza1988@gmail.com" method="POST">!-->
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                        
+                    </button>
+                    <!--<input class="btn" type="submit" value="Enviar">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">-->
+                    </form>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Pellegrini, Esq Bolivar 301, El Carmen Jujuy
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llámame: (0388) 155845541
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: danielsubelza1988@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/dani.callejero.75?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/dani_subelza?t=P2hYuJrh5BCQZ5SEzcVCPA&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/callejerodani?igshid=c2szNHI2ZG9ka2Fw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-subelza-1573b612a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
