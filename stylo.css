@@ -57,7 +57,7 @@ html{
 }
 /*SECCION INICIO*/
 .inicio{
-    /*CAMBIAR IMAGEN DE FONDO*/
+    /*IMAGEN DE FONDO*/
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), 
     url(img/fondo.jpg);
     background-size: cover;
@@ -85,7 +85,7 @@ html{
 .inicio .contenido-banner h1{
     margin-top: 40px;
     font-size: 42px;
-    /*CAMBIAR LETRA DE PRESENTACION*/
+    /*TIPO DE LETRA DE PRESENTACION*/
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
@@ -271,7 +271,7 @@ html{
     right: -15px;
     font-size: 14px;
 }
-/*ESTAS CLASES SE AGREGARAN DINAMICAMENTE MEDIANTE JAVASCRIPT*/
+/*CLASES AGREGADAS DINAMICAMENTE MEDIANTE JAVASCRIPT*/
 .habilidades .habilidad .javascript{
     width: 0%;
     animation: 2s javascript forwards;
